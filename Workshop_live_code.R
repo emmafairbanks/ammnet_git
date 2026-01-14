@@ -19,3 +19,11 @@ usethis::git_sitrep()
 #######################
 dir.create('local')
 usethis::use_git_ignore("local")
+
+#######################
+
+#usethis::use_github(private = TRUE)
+usethis::use_github()
+
+
+
